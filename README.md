@@ -9,7 +9,7 @@ pptx allows streaming ZIPs while they're being created and allows streaming file
 Gemfile:
 
 ```ruby
-gem 'pptx', git: 'https://github.com/nuvyu/ruby-pptx'
+gem 'pptx', git: 'https://github.com/yellow5/ruby-pptx'
 ```
 
 If you want to stream ZIP files, you'll need a yet unreleased version of [zipline](https://github.com/fringd/zipline). zipline isn't included as dependency for the Gem as it depends on Rails, which in turn adds a lot of dependencies and pptx is useful without Rails.
